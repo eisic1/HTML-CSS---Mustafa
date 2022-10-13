@@ -1,0 +1,192 @@
+.container{
+	width: 100%;
+	height: 500%;
+	background-image: url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	display: grid;
+	grid-template-columns: 1000px;
+	grid-template-rows: 40px 40px 1180px 800px 40px 40px;
+    grid-template-areas: 
+    "meni"
+    "meni"
+    "okvir"
+    "okvir1"
+    "footer"
+    "footer";
+    grid-gap: 5px 2px;
+    justify-content: space-evenly;
+}
+
+.okvir{
+	width: 700px;
+	margin-left: 15%;
+	text-align: center;
+	grid-area: okvir;
+	background-color: black;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 40px 376px 376px 376px;
+    grid-template-areas: 
+    "meni_1 meni_1"
+    "zeljko vedran"
+    "emir samir"
+    "vensada amila";
+    grid-gap: 3px 2px;
+}
+
+.okvir_1{
+	background-color: black;
+	text-align: center;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 40px 376px 376px;
+    grid-template-areas: 
+    "meni_2 meni_2 meni_2"
+    "cogo irfan mediha"
+    "karahodzic amar aida";
+    grid-gap: 3px 2px;
+}
+
+.footer{
+	grid-area: footer;
+	background-color: black;
+	border-radius: 5px;
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+.meni_1{
+	grid-area: meni_1;
+	background-color: #ddd;
+	border-radius: 5px 5px 0px 0px;
+}
+
+h2{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	color: #D97616;
+	font-family: Algerian;
+}
+
+.zeljko{
+	background-color: #cc9;
+	grid-area: zeljko;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.vedran{
+	grid-area: vedran;
+	border-radius: 0px 0px 5px 5px;
+	background-color: #cc9;
+}
+
+.emir{
+	grid-area: emir;
+	border-radius: 5px;
+	background-color: #cc9;
+}
+
+.samir{
+	grid-area: samir;
+	border-radius: 5px;
+	background-color: #cc9;
+}
+
+.vensada{
+	grid-area: vensada;
+	border-radius: 5px 5px 0px 5px;
+	background-color: #cc9;
+}
+
+.amila{
+	grid-area: amila;
+	border-radius: 5px 5px 5px 0px;
+	background-color: #cc9;
+}
+
+.meni_2{
+	background-color: #ddd;
+	border-radius: 5px 5px 0px 0px;
+	grid-area: meni_2;
+}
+
+.cogo{
+	grid-area: cogo;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.irfan{
+	grid-area: irfan;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.mediha{
+	grid-area: mediha;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.karahodzic{
+	grid-area: karahodzic;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.amar{
+	grid-area: amar;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.aida{
+	grid-area: aida;
+	border-radius: 5px;
+	background-color: #A168CA;
+}
+
+.meni{
+	background-color: black;
+	grid-area: meni;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.meni ul{
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.meni li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.meni a{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.footer p{
+	font-size: 20px;
+	font-style: italic;
+	color: white;
+}
+
+.footer{
+	font-size: 20px;
+}
+
+img{
+	width: 108px;
+	height: 192px;
+	margin-top: 20px;
+}
+
+a{
+	margin-left: 10px;
+}

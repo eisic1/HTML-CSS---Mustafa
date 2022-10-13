@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<HTML lang="bs">
+<HEAD>
+    <TITLE>Spirala 1, Zadatak 3</TITLE>
+    <link rel="stylesheet" type="text/css" href="godine4.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+    <div class="container">
+        <div class="banner_meni">
+            <img src="http://www.etf.unsa.ba/etf/css/images/etf-dugi.gif" alt="Razvoj softvera">
+            <h3>Razvoj softvera</h3>
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Godina</a></li>
+                <li><a href="../spirala 2/osoblje.html">Osoblje</a></li>
+                <li><a href="../spirala 2/laboratorije.html">Laboratorije</a></li>
+                <li><a href="../spirala 2/predmeti.html">Predmeti</a></li>
+            </ul>
+        </div>
+        <div class="polja">
+            <input type="text" id="predmet" onkeyup="pretragaPredmet()" placeholder="Pretraga predmeta">
+            <input type="text" id="nastavnik" onkeyup="pretragaNastavnik()" placeholder="Pretraga nastavnika">
+            <input type="text" id="godina" onkeyup="pretragaGodina()" placeholder="Pretraga godina">
+        </div>
+        <div class="tabela_1">
+            <table id="tabela" class="display">
+                <tr class="prva">
+                    <th colspan="3">Prva godina</th>
+                </tr>
+                <tr class="prva">
+                    <th class="ime">Naziv predmet</td>
+                    <th class="ime">Opis</td>
+                    <th class="ime">Profesor</td>
+                </tr>
+                <tr class="prva">
+                    <td class="da">Uvod u baze podataka</td>
+                    <td>UBP</td>
+                    <td class="ne">Emir Buza</td>
+                </tr>
+                <tr class="prva">
+                    <td class="da">Frontend web tehnologije</td>
+                    <td>FWT</td>
+                    <td class="ne">Vensada Okanović</td>
+                </tr>
+                <tr class="prva">
+                    <td class="da">Uvod u programiranje</td>
+                    <td>UUP</td>
+                    <td class="ne">Vedran Ljubović</td>
+                </tr>
+                <tr class="prva">
+                    <td class="da">Matematika u računarstvu 1</td>
+                    <td>MUR 1</td>
+                    <td class="ne">Željko Jurić</td>
+                </tr>
+                <tr class="druga">
+                    <th colspan="3">Druga godina</th>
+                </tr>
+                <tr class="druga">
+                    <th class="ime">Naziv predmet</td>
+                    <th class="ime">Opis</td>
+                    <th class="ime">Profesor</td>
+                </tr>
+                <tr class="druga">
+                    <td class="da">Web tehnologije</td>
+                    <td>WT</td>
+                    <td class="ne">Vensada Okanović</td>
+                </tr>
+                <tr class="druga">
+                    <td class="da">Algoritmi i strukture podataka</td>
+                    <td>ASP</td>
+                    <td class="ne">Željko Jurić</td>
+                </tr>
+                <tr class="druga">
+                    <td class="da">Skladišta podataka</td>
+                    <td>SP</td>
+                    <td class="ne">-----</td>
+                </tr>
+                <tr class="druga">
+                    <td class="da">Verifikacija i validacija softvera</td>
+                    <td>VVS</td>
+                    <td class="ne">Vedran Ljubović</td>
+                </tr>
+            </table><br><br>
+        </div>
+            <div class="tabela_2">
+                <table>
+                    <tr>
+                    <th colspan="6">Prva godina</th>
+                </tr>
+                <tr>
+                    <td class="ime"></td>
+                    <td class="ime">PON</td>
+                    <td class="ime">UTO</td>
+                    <td class="ime">SRI</td>
+                    <td class="ime">ČET</td>
+                    <td class="ime">PET</td>
+                </tr>
+                <tr>
+                    <td>09:00</td>
+                    <td class="predavanje">Matematika u računarstvu</td>
+                    <td class="tutorijal">Uvod u programiranje</td>
+                    <td class="predavanje">Uvod u baze podataka</td>
+                    <td class="kombinacija">Frontend web tehnologije</td>
+                    <td class="vjezbe">Matematika u računarstvu</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td class="predavanje">Matematika u računarstvu</td>
+                    <td class="tutorijal">Uvod u programiranje</td>
+                    <td class="predavanje">Uvod u baze podataka</td>
+                    <td class="kombinacija">Frontend web tehnologije</td>
+                    <td class="vjezbe">Matematika u računarstvu</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td class="predavanje">Matematika u računarstvu</td>
+                    <td class="tutorijal">Uvod u programiranje</td>
+                    <td class="predavanje">Uvod u baze podataka</td>
+                    <td>       </td>
+                    <td>       </td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td class="predavanje">Matematika u računarstvu</td>
+                    <td>       </td>
+                    <td class="predavanje">Uvod u baze podataka</td>
+                    <td>       </td>
+                    <td>       </td>
+                </tr>
+                <tr>
+                    <th colspan="6">Druga godina</th>
+                </tr>
+                <tr>
+                    <td class="ime"></td>
+                    <td class="ime">PON</td>
+                    <td class="ime">UTO</td>
+                    <td class="ime">SRI</td>
+                    <td class="ime">ČET</td>
+                    <td class="ime">PET</td>
+                </tr>
+                <tr>
+                    <td>09:00</td>
+                    <td>       </td>
+                    <td class="predavanje">Algotimi i strukture podataka</td>
+                    <td class="predavanje">Web tehnologije</td>
+                    <td class="kombinacija">Skladišta podataka</td>
+                    <td>       </td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td>       </td>
+                    <td class="predavanje">Algotimi i strukture podataka</td>
+                    <td class="predavanje">Web tehnologije</td>
+                    <td class="kombinacija">Skladišta podataka</td>
+                    <td class="vjezbe">Verifikacija i validacija softvera</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td>       </td>
+                    <td class="predavanje">Algotimi i strukture podataka</td>
+                    <td class="predavanje">Web tehnologije</td>
+                    <td class="tutorijal">Algotimi i strukture podataka</td>
+                    <td class="vjezbe">Verifikacija i validacija softvera</td>
+                </tr>
+                <tr>
+                    <td>12:00</td>
+                    <td>       </td>
+                    <td>       </td>
+                    <td>       </td>
+                    <td class="tutorijal">Algotimi i strukture podataka</td>
+                    <td>       </td>
+                </tr>
+                </table>
+            </div>
+    <div class="footer">
+        <p>Elektrotehnički fakultet,Razvoj softvera</p>
+            <a href="http://www.etf.unsa.ba/">Stranica fakulteta</a>
+    </div>
+</div>
+
+<SCRIPT src="pretraga.js"></SCRIPT>
+<SCRIPT src="godine.js"></SCRIPT>
+</BODY>
+</HTML>

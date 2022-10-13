@@ -1,0 +1,97 @@
+.container{
+	background-image: url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	margin: 0px;
+	height: 690px;
+	display: grid;
+	grid-gap: 2px 2px;
+}
+
+.banner_meni{
+	text-align: center;
+	border-radius: 10px;
+	grid-column: 1/6;
+	grid-row: 1;
+}
+
+.lista_1{
+	color: #91A7A8;
+	border-radius: 10px;
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.slika{
+    width: 320px;
+    text-align: center;
+	border-radius: 20px;
+	grid-column: 3/5;
+	grid-row: 2;
+}
+
+.lista_2{
+	color: #91A7A8;
+	border-radius: 10px;
+	grid-column: 5;
+	grid-row: 2;
+}
+
+.footer{
+	text-align: center;
+	border-radius: 10px;
+	grid-column: 1/6;
+	grid-row: 3;
+}
+
+.banner_meni ul{
+	text-align: center;
+	list-style: none;
+}
+
+.banner_meni li{
+	display: inline-block;
+}
+
+.banner_meni img{
+	margin-left: 300px;
+	float: left;
+}
+
+.banner_meni p{
+	font-size: 25px;
+	font-style: italic;
+	color: #91A7A8;
+}
+
+.banner_meni a{
+	color: #E12865;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.lista_1 ul{
+	list-style-image: url('book_small.png');
+}
+
+.lista_2 ul{
+	list-style-image: url('racunar.png');
+}
+
+.slika img{
+	width: 400px;
+	height: 300px;
+}
+
+.footer p{
+	color: #37D3BF;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.footer a{
+	font-size: 20px;
+	color: #E12865;
+}
+
+h2{
+	margin-left: 10px;
+}

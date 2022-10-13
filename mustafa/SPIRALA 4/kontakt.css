@@ -1,0 +1,56 @@
+.okvir{	
+	background-image: url('https://www.072info.com/wp-content/uploads/horoskop.jpg');
+}
+
+.banner_meni{
+	margin-top: 15px;
+	background-color: #0390B9;
+	text-align: center;
+}
+
+.forme{
+	text-align: center;
+	background-color: #14B4E2;
+	padding: 15px;
+}
+
+.footer{
+	margin-bottom: 15px;
+	background-color: #0390B9;
+	text-align: center;
+}
+
+.banner_meni ul{
+	margin-right: 35px;
+	list-style: none;
+}
+
+.banner_meni li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer p{
+	color: #C42011;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.footer a, .banner_meni a{
+	color: black;
+	font-size: 20px;
+}
+
+.da{
+	margin-right: 15px;
+}
+
+.pos{
+	width: 200px;
+	border-radius: 5px;
+}
+
+h3{
+	font-style: italic;
+	font-size: 20px;
+}

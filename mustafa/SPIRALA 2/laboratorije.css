@@ -1,0 +1,194 @@
+.container{
+	width: 100%;
+	height: 500%;
+	background-image: url('https://puntomarinero.com/images/binary-information-encoding_1.jpg');
+	display: grid;
+	grid-template-columns: 1000px;
+	grid-template-rows: 40px 40px 500px 500px 500px 40px 40px;
+    grid-template-areas: 
+    "meni"
+    "meni"
+    "okvir"
+    "okvir_1"
+    "okvir_2"
+    "footer"
+    "footer";
+    grid-gap: 5px 2px;
+    justify-content: space-evenly;
+}
+
+.meni{
+	background-image: url('https://cdn11.bigcommerce.com/s-2cba3/images/stencil/1000x1000/products/260/2277/Ebony_web__58639.1334158930.jpg?c=2');
+	grid-area: meni;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.meni li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.meni a{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.okvir{
+	grid-area: okvir;
+	background-image: url('https://images.unsplash.com/photo-1541140134513-85a161dc4a00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 376px 60px 60px;
+    grid-template-areas: 
+    "slika oprema slika_1"
+    "godina_1 tekst tekst"
+    "godina_2 tekst tekst";
+    grid-column-gap: 10px;
+}
+
+.slika{
+	grid-area: slika;
+	text-align: center;
+}
+
+.oprema{
+	grid-area: oprema;
+}
+
+.slika_1{
+	grid-area: slika_1;
+	text-align: center;
+}
+
+.godina_1{
+	grid-area: godina_1;
+	text-align: center;
+}
+
+.godina_2{
+	grid-area: godina_2;
+	text-align: center;
+	background-color: #B3C2CE;
+}
+
+.tekst{
+	grid-area: tekst;
+	text-align: center;
+	background-color: #cc9;
+}
+
+.okvir_1{
+	grid-area: okvir_1;
+	background-image: url('https://www.123creative.com/2732-thickbox/black-and-white-grunge-textures-dark-splash-light-dirty-backgrounds-pack.jpg');
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 376px 60px 60px;
+    grid-template-areas: 
+    "slika_2 oprema_1 slika_3"
+    "godina_3 tekst_1 tekst_1"
+    "godina_4 tekst_1 tekst_1";
+    grid-column-gap: 10px;
+}
+
+.slika_2{
+	grid-area: slika_2;
+	text-align: center;
+}
+
+.oprema_1{
+	grid-area: oprema_1;
+}
+
+.slika_3{
+	grid-area: slika_3;
+	text-align: center;
+}
+
+.godina_3{
+	grid-area: godina_3;
+	text-align: center;
+}
+
+.godina_4{
+	grid-area: godina_4;
+	text-align: center;
+	background-color: #B3C2CE;
+}
+
+.tekst_1{
+	grid-area: tekst_1;
+	text-align: center;
+	background-color: #cc9;
+}
+
+.okvir_2{
+	grid-area: okvir_2;
+	background-image: url('http://www.textures4photoshop.com/tex/thumbs/white-grunge-background-thumb23.jpg');
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 376px 60px 60px;
+    grid-template-areas: 
+    "slika_4 oprema_2 slika_5"
+    "godina_5 tekst_2 tekst_2"
+    "godina_6 tekst_2 tekst_2";
+    grid-column-gap: 10px;
+}
+
+.slika_4{
+	grid-area: slika_4;
+	text-align: center;
+}
+
+.oprema_2{
+	grid-area: oprema_2;
+}
+
+.slika_5{
+	grid-area: slika_5;
+	text-align: center;
+}
+
+.godina_5{
+	text-align: center;
+	grid-area: godina_5;
+}
+
+.godina_6{
+	text-align: center;
+	grid-area: godina_6;
+	background-color: #B3C2CE;
+}
+
+.tekst_2{
+	text-align: center;
+	grid-area: tekst_2;
+	background-color: #cc9;
+}
+
+.footer{
+	grid-area: footer;
+	background-image: url('https://cdn11.bigcommerce.com/s-2cba3/images/stencil/1000x1000/products/260/2277/Ebony_web__58639.1334158930.jpg?c=2');
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.footer a{
+	color: white;
+}
+
+.oprema, .oprema_1, .oprema_2 li{
+	font-size: 20px;
+}
+
+img{
+	width: 300px;
+	height: 376px;
+}

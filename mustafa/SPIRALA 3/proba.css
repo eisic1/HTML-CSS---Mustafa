@@ -1,0 +1,232 @@
+.container{
+	width: 100%;
+	height: 500%;
+	background-image: url('https://www.wallpapersbrowse.com/images/9t/9t7cuo6.jpg');
+	display: grid;
+	grid-template-columns: 803px;
+	grid-template-rows: 120px 35px 560px 580px 580px 580px 580px 580px 580px 80px;
+    grid-template-areas:
+    "meni"
+    "meni_1"
+    "mur_1"
+    "uup"
+    "fwt"
+    "ubp"
+    "asp"
+    "wt"
+    "vvs"
+    "footer";
+    grid-gap: 5px;
+    justify-content: space-evenly;
+}
+
+.meni{
+	background-image: url('https://cdn11.bigcommerce.com/s-2cba3/images/stencil/1000x1000/products/260/2277/Ebony_web__58639.1334158930.jpg?c=2');
+	grid-area: meni;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.meni h1{
+	margin-left: 50px;
+}
+
+.meni li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.meni a{
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.meni_1{
+	background-image: url('https://cdn11.bigcommerce.com/s-2cba3/images/stencil/1000x1000/products/260/2277/Ebony_web__58639.1334158930.jpg?c=2');
+	grid-area: meni_1;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.dugme{
+	margin-top: 7px;
+	margin-left: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+#mur_1{
+	grid-area: mur_1;
+	background-image: url('http://www.textures4photoshop.com/tex/thumbs/white-grunge-background-thumb23.jpg');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 110px 100px 95px 95px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#uup{
+	grid-area: uup;
+	background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-024.jpg');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 90px 100px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#fwt{
+	grid-area: fwt;
+	background-image: url('https://i.pinimg.com/originals/67/f7/3a/67f73ac3675005f30b928360f942f965.jpg');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 90px 100px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#ubp{
+	grid-area: ubp;
+	background-image: url('https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-1.2.1&w=1000&q=80');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 95px 95px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#asp{
+	grid-area: asp;
+	background-image: url('http://eskipaper.com/images/background-3.jpg');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 90px 100px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#wt{
+	grid-area: wt;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwNPO_0IMhZ0A609NYirqNjSZkxnu6L2C2OLLJv03b8lA7Ikum&s');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 90px 100px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+#vvs{
+	grid-area: vvs;
+	background-image: url('http://eskipaper.com/images/blue-backgrounds-1.jpg');
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 150px 130px 100px 90px 100px;
+    grid-template-areas: 
+    "naslov tema"
+    "profesor tema"
+    "asistent opis"
+    "predavanja opis"
+    "vjezbe opis";
+    grid-gap: 3px;
+}
+
+.naslov{
+	grid-area: naslov;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.tema{
+	grid-area: tema;
+	border: 2px solid grey;
+}
+
+.profesor{
+	grid-area: profesor;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.asistent{
+	grid-area: asistent;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.predavanja{
+	grid-area: predavanja;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.vjezbe{
+	grid-area: vjezbe;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+.opis{
+	grid-area: opis;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+
+
+.footer{
+	grid-area: footer;
+	background-image: url('https://cdn11.bigcommerce.com/s-2cba3/images/stencil/1000x1000/products/260/2277/Ebony_web__58639.1334158930.jpg?c=2');
+	border-radius: 5px;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.footer a{
+	color: white;
+}
+
+h2{
+	font-family: Georgia;
+}
+
+p, li{
+	font-size: 20px;
+}
+
+.footer p{
+	font-size: 20px;
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<HTML lang="bs">
+<HEAD>
+	<TITLE>Spirala 2, Zadatak 3</TITLE>
+	<link rel="stylesheet" type="text/css" href="Zadatak3.css">
+	<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<SCRIPT src="Spirala.js"></SCRIPT>
+</HEAD>
+<BODY>
+	<div class="container">
+		<div class="meni">
+			<h1>Razvoj softvera</h1>
+			<ul>
+				<li><a href="#">Početna</a></li>
+		        <li><a href="#">Kontakt</a></li>
+		        <li><a href="#">Godina</a></li>
+		    </ul>
+	    </div>
+	    <div class="meni_1">
+	    	<button onclick="sakrijDrugi()" class="dugme">Prva godina</button>
+			<button onclick="sakrijPrvi()" class="dugme">Druga godina</button>
+			<button onclick="sviPredmeti()" class="dugme">Svi predmeti</button>
+	    </div>
+	    <div id="predmeti1" class="okvir">
+		    <div id="mur_1" class="test">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Matematika u računarstvu 1
+		    		</p>
+
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	        <p> Predmet obuhvata, prije svega, učenje nekih osnovnih elemenata logike iskaza koji će dosta pomoći u mnogim zadacima prilikom programiranja. Zatim, bavi se rječavanjem određenih algoritama, koji će nam također biti od pomoći u programskim jezicima. U suštini, ovaj predmet je vezan za većinu drugih tako da je korisno da se redovno uči. 
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			       <h2>Lista tema</h2>
+			        <ul>
+			        	<li>Elementi logike iskaza i logičke algebre</li>
+			        	<li>Elementi teorije skupova</li>
+			        	<li>Booleova alebra</li>
+			        	<li>Elementi logike predikata</li>
+			        	<li>Vjerovatnoća i kombinatoriak</li>
+			        	<li>Protokoli</li>
+			        	<li>Algoritmi</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>70
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			        <h2>Profesor</h2>
+			        	<p>R.prof.Željko Jurić, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Hana Bezdrob
+			        </p>
+		        </div>
+		    </div>
+		    <div id="uup" class="test1">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Uvod u programiranje
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Predmet je baziran na rješavanju programskih zadataka u sklopu C programskog jezika. C programski jezik je jedan od najpopularnijih u svijetu. Stvari koje se uče dovoljno su jasne da jezik i nije bitan. Najbolje je podržan jezik na svim platformama. Neki od jezika koji su nalik C-u: C++, C#, Java, PHP, javaScript,....
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>Uslovi</li>
+			        	<li>Petlje</li>
+			        	<li>Nizovi</li>
+			        	<li>Matrice</li>
+			        	<li>Funkcije</li>
+			        	<li>Pokazivači</li>
+			        	<li>Stringovi</li>
+			        	<li>Datoteke</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			        <h2>Profesor</h2>
+			        	<p>Doc.dr.Vedran ljubović, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Tarik Sijerčić
+			        </p>
+		        </div>
+		    </div>
+		    <div id="fwt" class="test2">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Frontend web tehnologije
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Na ovom predmetu učimo praviti web stranice. Krenuvši od nekog "kostura"(osnove) do uređenja i krajnjeg ishoda web stranice.
+		    	    	U ovom slučaju "kostur" predstavlja HTML, a sve ostalo je vezano za uređenje web stranice.
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>HTML</li>
+			        	<li>CSS</li>
+			        	<li>UI i UX dizajn</li>
+			        	<li>Responzivni web dizajn</li>
+			        	<li>JavaScript</li>
+			        	<li>.....</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			       <h2>Profesor</h2>
+			        	<p>V.prof.dr.Vensada Okanović, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Irfan Prazina
+			        </p>
+		        </div>
+		    </div>
+		    <div id="ubp" class="test3">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Uvod u baze podataka
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Cilj predmeta je da se steknu znanja o osnovnim konceptima baze podataka, relacijskom modelu i arhitekturi sistema baze podataka, osnovama SQL jezika, pravilima za definisanje šeme,.....
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>Uvod u baze podataka</li>
+			        	<li>Arhitektura sistema baze podataka</li>
+			        	<li>Tipovi</li>
+			        	<li>Relacijski model podataka</li>
+			        	<li>Relacije</li>
+			        	<li>Integritet</li>
+			        	<li>Uvod u SQL</li>
+			        	<li>Pogledi</li>
+			        	<li>Funkcionale zavisnosti i normalizacija</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			        <h2>Profesor</h2>
+			        	<p>V.prof.dr.Emir Buza, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Emir Cogo
+			        </p>
+		        </div>
+		    </div>
+		</div>
+		<div class="okvir1" id="predmeti2">
+			<div id="asp" class="test4">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Algoritmi i strukture podataka
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Predmet je baziran na rješavanju programskih zadataka u sklopu C programskog jezika. C programski jezik je jedan od najpopularnijih u svijetu. Stvari koje se uče dovoljno su jasne da jezik i nije bitan. Najbolje je podržan jezik na svim platformama. Neki od jezika koji su nalik C-u: C++, C#, Java, PHP, javaScript,....
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>Uslovi</li>
+			        	<li>Petlje</li>
+			        	<li>Nizovi</li>
+			        	<li>Matrice</li>
+			        	<li>Funkcije</li>
+			        	<li>Pokazivači</li>
+			        	<li>Stringovi</li>
+			        	<li>Datoteke</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			        <h2>Profesor</h2>
+			        	<p>Doc.dr.Željko Jurić, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Tarik Sijerčić
+			        </p>
+		        </div>
+		    </div>
+		    <div id="wt" class="test5">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Web tehnologije
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Na ovom predmetu učimo praviti web stranice. Krenuvši od nekog "kostura"(osnove) do uređenja i krajnjeg ishoda web stranice.
+		    	    	U ovom slučaju "kostur" predstavlja HTML, a sve ostalo je vezano za uređenje web stranice.
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>HTML</li>
+			        	<li>CSS</li>
+			        	<li>UI i UX dizajn</li>
+			        	<li>Responzivni web dizajn</li>
+			        	<li>JavaScript</li>
+			        	<li>.....</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			       <h2>Profesor</h2>
+			        	<p>V.prof.dr.Vensada Okanović, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Irfan Prazina
+			        </p>
+		        </div>
+		    </div>
+		    <div id="vvs" class="test6">
+		    	<div class="naslov">
+		    		<h2>Naslov</h2>
+		    			<p>Verifikacija i validacija softvera
+		    		</p>
+		        </div>
+		        <div class="opis">
+		    	    <h2>Opis</h2>
+		    	    	<p>Cilj predmeta je da se steknu znanja o osnovnim konceptima baze podataka, relacijskom modelu i arhitekturi sistema baze podataka, osnovama SQL jezika, pravilima za definisanje šeme,.....
+		    	    </p>
+		        </div>
+		        <div class="tema">
+			        <h2>Lista tema</h2>
+			        <ul>
+			        	<li>Uvod u baze podataka</li>
+			        	<li>Arhitektura sistema baze podataka</li>
+			        	<li>Tipovi</li>
+			        	<li>Relacijski model podataka</li>
+			        	<li>Relacije</li>
+			        	<li>Integritet</li>
+			        	<li>Uvod u SQL</li>
+			        	<li>Pogledi</li>
+			        	<li>Funkcionale zavisnosti i normalizacija</li>
+			        </ul>
+		        </div>
+		        <div class="predavanja">
+			        <h2>Br. predavanja</h2>
+			        	<p>50
+			        </p>
+		        </div>
+		        <div class="vjezbe">
+			        <h2>Br.vježbi (tutorijala)</h2>
+			        	<p>30
+			        </p>
+		        </div>
+		        <div class="profesor">
+			        <h2>Profesor</h2>
+			        	<p>V.prof.dr.Emir Buza, dipl.ing.el.
+			        </p>
+		        </div>
+		        <div class="asistent">
+			        <h2>Asistent</h2>
+			        	<p>Emir Cogo
+			        </p>
+		        </div>
+		    </div>
+		</div>
+	<div class="footer">
+        <p>Elektrotehnički fakultet,Razvoj softvera<br>
+        	<a href="http://www.etf.unsa.ba/">www.etf.unsa.ba</a></p>
+	</div>
+</div>
+</BODY>
+</HTML>

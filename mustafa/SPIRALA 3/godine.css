@@ -1,0 +1,113 @@
+.container{
+	width: 100%;
+	height: 150%;
+	background-image: url('https://magtemplates.com/wp-content/uploads/2017/06/Programming-Wallpapers-for-Desktop.png');
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 530px 110px;
+    grid-template-areas: 
+    "banner_meni banner_meni"
+    "tabela_1 tabela_2"
+    "footer footer";
+    grid-gap: 5px 2px;
+}
+
+.banner_meni{
+	text-align: center;
+	grid-area: banner_meni;
+}
+
+.tabela_1{
+	text-align: center;
+	grid-area: tabela_1;
+}
+
+.tabela_2{
+	text-align: center;
+	grid-area: tabela_2;
+}
+
+.footer{
+	text-align: center;
+	grid-area: footer;
+}
+
+.banner_meni ul{
+	margin-right: 35px;
+	list-style: none;
+}
+
+.banner_meni li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.footer p{
+	color: white;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.footer a{
+	color: white;
+	font-size: 20px;
+}
+
+.ime{
+	background-color: #8CBABA;
+}
+
+.tutorijal{
+	background-color: lightblue;
+	color: darkblue;
+}
+
+.vjezbe{
+	background-color: lightgreen;
+	color: darkgreen;
+}
+
+.predavanje{
+	background-color: #FACE42;
+	color: darkorange;
+}
+
+.kombinacija{
+	background-color: lightgray;
+	color: black;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	width: 623px;
+	height: 480px;
+}
+
+th{
+	background-color: #8CBABA;
+	height: 35px;
+	width: 150px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+tr {
+	background-color: white;
+}
+
+td {
+	height: 30px;
+}
+
+h3{
+	color: white;
+	font-size: 25px;
+}
+
+td.menu {
+        cursor:hand;
+}
